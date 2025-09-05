@@ -147,14 +147,14 @@ point2 = MasjidJironah
 bear1  = calculate_bearing_plus_code(point1, loc_, False, rounding_)
 bear2  = calculate_bearing_plus_code(point2, loc_, False, rounding_)
 hh  = round(bear1-bear2, rounding_)
-print(f"The half-span of the angle formed by the bearings from western ({point1.NAME_}) and eastern ({point2.NAME_}) boundaries of the Haram to {loc_.NAME_}=({round(bear2-360, rounding_)}-{round(bear1-360, rounding_)})/2={hh/2}\n\n")
+print(f"The half-span of the angle formed by the bearings from western ({point1.NAME_}) and eastern ({point2.NAME_}) boundaries of the Haram to {loc_.NAME_}=({round(bear1-360, rounding_)}-{round(bear2-360, rounding_)})/2={hh/2}\n\n")
 
 point1 = nearMainGate
 point2 = Rashidiya
 bear1  = calculate_bearing_plus_code(point1, loc_, False, rounding_)
 bear2  = calculate_bearing_plus_code(point2, loc_, False, rounding_)
 hh  = round(bear1-bear2, rounding_)
-print(f"The half-span of the angle formed by the bearings from western ({point1.NAME_}) and eastern ({point2.NAME_}) boundaries of the Haram to {loc_.NAME_}=({round(bear2-360, rounding_)}-{round(bear1-360, rounding_)})/2={hh/2}\n\n")
+print(f"The half-span of the angle formed by the bearings from western ({point1.NAME_}) and eastern ({point2.NAME_}) boundaries of the Haram to {loc_.NAME_}=({round(bear1-360, rounding_)}-{round(bear2-360, rounding_)})/2={hh/2}\n\n")
 print(f"{hh/2}≈{round(hh/2, rounding_result_)} --> Surah At-Tin (Quran Chapter 95) mentions the Mount Sinai and the Secure City of Mecca in its second and third verse.")
 
 loc_ = JabalSerbal
@@ -175,11 +175,11 @@ point2 = MasjidJironah
 bear1  = calculate_bearing_plus_code(point1, loc_, False, rounding_)
 bear2  = calculate_bearing_plus_code(point2, loc_, False, rounding_)
 hh  = round(bear1-bear2, rounding_)
-print(f"The half-span of the angle formed by the bearings from western ({point1.NAME_}) and eastern ({point2.NAME_}) boundaries of the Haram to {loc_.NAME_}=({round(bear2-360, rounding_)}-{round(bear1-360, rounding_)})/2={hh/2}\n\n")
+print(f"The half-span of the angle formed by the bearings from western ({point1.NAME_}) and eastern ({point2.NAME_}) boundaries of the Haram to {loc_.NAME_}=({round(bear1-360, rounding_)}-{round(bear2-360, rounding_)})/2={hh/2}\n\n")
 
 point1 = nearMainGate
 point2 = Rashidiya
 bear1  = calculate_bearing_plus_code(point1, loc_, False, rounding_)
 bear2  = calculate_bearing_plus_code(point2, loc_, False, rounding_)
 hh  = round(bear1-bear2, rounding_)
-print(f"The half-span of the angle formed by the bearings from western ({point1.NAME_}) and eastern ({point2.NAME_}) boundaries of the Haram to {loc_.NAME_}=({round(bear2-360, rounding_)}-{round(bear1-360, rounding_)})/2={hh/2}\n\n")
+print(f"The half-span of the angle formed by the bearings from western ({point1.NAME_}) and eastern ({point2.NAME_}) boundaries of the Haram to {loc_.NAME_}=({round(bear1-360, rounding_)}-{round(bear2-360, rounding_)})/2={hh/2}\n\n")
